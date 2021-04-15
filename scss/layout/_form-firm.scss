@@ -1,0 +1,17 @@
+.form-firm {
+    background-color: $secondary-color;
+
+    img {
+        height: 75%;
+        width: 75%;
+    }
+}
+
+.form-message {
+    color: red;
+}
+
+.errors {
+
+    border-bottom: 1px solid #f00;
+}

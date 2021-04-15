@@ -1,0 +1,194 @@
+.ofert-img {
+    position: relative;
+    height: 150px;
+    width: 150px;
+
+    img {
+        position: absolute;
+        top: 25%;
+        right: 50%;
+    }
+}
+
+
+.order-md-2{
+    img {
+        width: 20%;
+        height: 50%;
+        position: absolute;
+        top: 45%;
+        right: 50%;
+    }
+}
+
+@media screen and (max-width: $md) {
+    .order-md-2{
+        img {
+            width: 60%;
+            height: 90%;
+        }
+    }
+}
+
+.img-bb8 {
+    img {
+        width: 20%;
+        height: 60%;
+        position: absolute;
+        top: 35%;
+        right: 50%;
+    }
+}
+
+
+@media screen and (max-width: $md) {
+    .img-bb8 {
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+.circle {
+    position: absolute;
+    top: 25%;
+    right: 50%;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    background-color: $secondary-color;
+}
+
+.ofert-text span {
+    color: $primary-color;
+    font-size: 1.5rem;
+}
+
+.slant {
+    clip-path: polygon(0% 10%,100% 3%,100% 83%,0% 88%);
+}
+
+@media screen and (max-width: $md) {
+    .circle {
+        top: 5%;
+        right: -50%;
+    }
+
+    .ofert-img img {
+        top: 5%;
+        right: -50%;
+    }
+}
+
+@keyframes orbit {
+from {
+    transform: rotate(0deg) translateX(10px) rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg) translateX(10px) rotate(-360deg);
+    }
+    }
+    @keyframes rev {
+    from {
+        transform: rotate(0deg) translateX(10px) rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg) translateX(10px) rotate(360deg);
+    }
+}
+
+
+.round {
+border-radius: 100%;
+position: absolute;
+background-color: #e1e8ff;
+animation: orbit 4s linear infinite;
+}
+
+.rev {
+animation: rev 4s linear infinite;
+}
+
+.round1 {
+    width: 30px;
+    height: 30px;
+    left: 10%;
+    top: 60%;
+    background-color: $primary-color;
+}
+
+.round2 {
+    width: 50px;
+    height: 50px;
+    left: 25%;
+    top: 15%;
+}
+
+.round3 {
+    width: 20px;
+    height: 20px;
+    left: 30%;
+    top: 15%;
+}
+
+.round4 {
+    width: 50px;
+    height: 50px;
+    left: 40%;
+    top: 3%;
+    background-color: $primary-color;
+}
+
+.round5 {
+    width: 20px;
+    height: 20px;
+    right: 5%;
+    top: 55%;
+}
+
+.round6 {
+    width: 10px;
+    height: 10px;
+    right: 30%;
+    top: 15%;
+    background-color: $primary-color;
+}
+
+.round7 {
+    width: 40px;
+    height: 40px;
+    right: 20%;
+    top: 20%;
+    background-color: $secondary-color;
+}
+
+.round8 {
+    width: 80px;
+    height: 80px;
+    right: 8%;
+    top: 30%;
+    background-color: $secondary-color;
+}
+
+.round9 {
+    width: 40px;
+    height: 40px;
+    right: 7%;
+    top: 70%;
+    background-color: $primary-color;
+}
+
+.round10 {
+    width: 30px;
+    height: 30px;
+    right: 35%;
+    top: 5%;
+}
+
+.round11 {
+    width: 30px;
+    height: 30px;
+    left: 8%;
+    top: 35%;
+}

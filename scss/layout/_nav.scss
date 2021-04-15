@@ -1,0 +1,27 @@
+@media screen and (max-width: $md) {
+    .btn-nav{
+       width: 30%;
+    }
+
+    .change-language {
+        width: 5%;
+        margin-top: 5px;
+    }
+
+}
+
+.change-language {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid $primary-color;
+    transition: all .3s ease;
+    height: 40px;
+    width: 40px;
+
+    &:hover {
+        background-color: $primary-color;
+        color: white !important;
+        border: none;
+    }
+}
