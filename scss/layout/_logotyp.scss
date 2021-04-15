@@ -1,0 +1,13 @@
+.logotyp {
+    .element {
+        background-color: $primary-color;
+        color: white;
+
+        &::after{
+            background-color: $primary-color;
+            height: 7.3rem;
+            width: 7.3rem;
+            right: -4rem;
+        }
+    }
+}

@@ -339,4 +339,46 @@ body {
 .errors {
   border-bottom: 1px solid #f00;
 }
+
+.logotyp .element {
+  background-color: #2085ff;
+  color: white;
+}
+
+.logotyp .element::after {
+  background-color: #2085ff;
+  height: 7.3rem;
+  width: 7.3rem;
+  right: -4rem;
+}
+
+.map-container {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  padding-bottom: 20%;
+  position: relative;
+  height: 0;
+  width: 98%;
+}
+
+.map-container iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content .item {
+  width: 25%;
+}
 /*# sourceMappingURL=style.css.map */

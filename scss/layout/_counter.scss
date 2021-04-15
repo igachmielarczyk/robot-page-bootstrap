@@ -13,16 +13,16 @@
     h2 {
         z-index: 1000;
     }
-}
 
-.element::after {
-  position: absolute;
-  display: block;
-  content: '';
-  height: 8.9rem;
-  width: 8.9rem;
-  right: -4rem;
-  z-index: 3;
-  border-radius: 50%;
-  background-color: $secondary-color;
+    &::after {
+        position: absolute;
+        display: block;
+        content: '';
+        height: 8.9rem;
+        width: 8.9rem;
+        right: -4rem;
+        z-index: 3;
+        border-radius: 50%;
+        background-color: $secondary-color;
+    }
 }
