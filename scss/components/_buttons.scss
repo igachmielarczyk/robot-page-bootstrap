@@ -1,6 +1,7 @@
 .btn-primary{
     background-color: $primary-color !important;
     border-radius: 20px;
+    transition: all .3s;
 
     &:hover {
         background-color: $primary-hover !important; 
@@ -12,6 +13,7 @@
     color: white;
     border-radius: 20px;
     padding: .375rem .75rem;
+    transition: all .3s;
 
     &:hover{
         background-color: $primary-hover !important;
@@ -19,3 +21,6 @@
     }
 }
 
+a {
+    transition: all .3s;
+}

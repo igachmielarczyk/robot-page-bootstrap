@@ -8,6 +8,7 @@ body {
 .btn-primary {
   background-color: #2085ff !important;
   border-radius: 20px;
+  transition: all .3s;
 }
 
 .btn-primary:hover {
@@ -19,11 +20,16 @@ body {
   color: white;
   border-radius: 20px;
   padding: .375rem .75rem;
+  transition: all .3s;
 }
 
 .btn-nav:hover {
   background-color: #1d5dac !important;
   color: white;
+}
+
+a {
+  transition: all .3s;
 }
 
 @media screen and (max-width: 991.98px) {
