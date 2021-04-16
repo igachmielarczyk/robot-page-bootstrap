@@ -427,6 +427,14 @@ a {
   color: #2085ff;
 }
 
+.about a {
+  color: white;
+}
+
+.about a:hover {
+  color: #2085ff;
+}
+
 .form-firm {
   background-color: #ddd9d9;
 }

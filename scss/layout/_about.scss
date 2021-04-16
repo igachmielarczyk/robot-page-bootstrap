@@ -7,4 +7,15 @@
             color: $primary-color;
         }
     }
+
+
+    a {
+        color: white;
+
+        &:hover {
+            color: $primary-color;
+        }
+    }
+    
+    
 }
