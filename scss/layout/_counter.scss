@@ -1,5 +1,4 @@
 .counter {
-
     span,
     .count{
         color: $primary-color;
@@ -26,3 +25,32 @@
         background-color: $secondary-color;
     }
 }
+
+.bg-black {
+    background-color: black;
+}
+
+@media all and (max-width: 374px) {
+    .element::after {
+        height: 12rem;
+        width: 6rem;
+        right: -2.95rem;
+    }
+}
+
+@media all and (min-width: 374px) and (max-width: 484px) {
+    .element::after {
+        height: 9.7rem;
+        width: 6rem;
+        right: -2.95rem;
+    }
+}
+
+@media all and (min-width: 772px) and (max-width: 938px) {
+    .element::after {
+        height: 9.7rem;
+        width: 6rem;
+        right: -2.95rem;
+    }
+}
+

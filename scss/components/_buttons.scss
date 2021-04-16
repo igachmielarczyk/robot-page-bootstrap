@@ -1,6 +1,6 @@
 .btn-primary{
     background-color: $primary-color !important;
-    border-radius: 10rem;
+    border-radius: 20px;
 
     &:hover {
         background-color: $primary-hover !important; 
@@ -10,7 +10,7 @@
 .btn-nav {
     background-color: $primary-color !important;
     color: white;
-    border-radius: 10rem;
+    border-radius: 20px;
     padding: .375rem .75rem;
 
     &:hover{

@@ -1,9 +1,13 @@
 /* Fonts */
 /* Colors */
 /* Mobile breakpoints */
+body {
+  font-family: "Ubuntu", serif;
+}
+
 .btn-primary {
   background-color: #2085ff !important;
-  border-radius: 10rem;
+  border-radius: 20px;
 }
 
 .btn-primary:hover {
@@ -13,7 +17,7 @@
 .btn-nav {
   background-color: #2085ff !important;
   color: white;
-  border-radius: 10rem;
+  border-radius: 20px;
   padding: .375rem .75rem;
 }
 
@@ -46,10 +50,6 @@
   background-color: #2085ff;
   color: white !important;
   border: none;
-}
-
-body {
-  font-family: "Ubuntu", serif;
 }
 
 .swiper-container {
@@ -94,6 +94,34 @@ body {
   background-color: #ddd9d9;
 }
 
+.bg-black {
+  background-color: black;
+}
+
+@media all and (max-width: 374px) {
+  .element::after {
+    height: 12rem;
+    width: 6rem;
+    right: -2.95rem;
+  }
+}
+
+@media all and (min-width: 374px) and (max-width: 484px) {
+  .element::after {
+    height: 9.7rem;
+    width: 6rem;
+    right: -2.95rem;
+  }
+}
+
+@media all and (min-width: 772px) and (max-width: 938px) {
+  .element::after {
+    height: 9.7rem;
+    width: 6rem;
+    right: -2.95rem;
+  }
+}
+
 .ofert-img {
   position: relative;
   height: 150px;
@@ -106,7 +134,7 @@ body {
   right: 50%;
 }
 
-.order-md-2 img {
+.order-lg-2 img {
   width: 20%;
   height: 50%;
   position: absolute;
@@ -114,26 +142,12 @@ body {
   right: 50%;
 }
 
-@media screen and (max-width: 991.98px) {
-  .order-md-2 img {
-    width: 60%;
-    height: 90%;
-  }
-}
-
-.img-bb8 img {
+.img-bb8 {
   width: 20%;
-  height: 60%;
+  height: 80%;
   position: absolute;
   top: 35%;
   right: 50%;
-}
-
-@media screen and (max-width: 991.98px) {
-  .img-bb8 img {
-    width: 100%;
-    height: 100%;
-  }
 }
 
 .circle {
@@ -153,17 +167,8 @@ body {
 
 .slant {
   clip-path: polygon(0% 10%, 100% 3%, 100% 83%, 0% 88%);
-}
-
-@media screen and (max-width: 991.98px) {
-  .circle {
-    top: 5%;
-    right: -50%;
-  }
-  .ofert-img img {
-    top: 5%;
-    right: -50%;
-  }
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 @keyframes orbit {
@@ -278,19 +283,106 @@ body {
   top: 35%;
 }
 
-.swiper-container.second {
-  width: 100%;
-  height: 100%;
+@media screen and (max-width: 991.98px) {
+  .circle {
+    top: 5%;
+    right: -150%;
+  }
+  .ofert-img img {
+    top: 5%;
+    right: -150%;
+  }
+  .img-bb8 {
+    width: 100%;
+    height: 100%;
+    left: 160%;
+    top: -10%;
+  }
+  .order-lg-2 img {
+    width: 60%;
+    height: 90%;
+  }
+  .round1 {
+    left: 150%;
+  }
+  .round2 {
+    left: 240%;
+  }
+  .round3 {
+    left: 140%;
+  }
+  .round4 {
+    left: 80%;
+  }
+  .round5 {
+    left: 299%;
+  }
+  .round6 {
+    left: 192%;
+  }
+  .round7 {
+    left: 92%;
+  }
+  .round8 {
+    left: 352%;
+  }
+  .round9 {
+    left: 352%;
+  }
+  .round11 {
+    left: 350%;
+  }
 }
 
-.swiper-slide.second {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-  /* Center slide text vertically */
-  display: flex;
-  justify-content: center;
-  align-items: center;
+@media screen and (max-width: 767.98px) {
+  .circle {
+    top: 5%;
+    left: 20%;
+  }
+  .ofert-img img {
+    top: 5%;
+    left: 20%;
+  }
+  .img-bb8 {
+    width: 100%;
+    height: 100%;
+    left: 1120%;
+    top: -10%;
+  }
+  .order-lg-2 img {
+    width: 60%;
+    height: 90%;
+  }
+  .round1 {
+    left: 33%;
+  }
+  .round2 {
+    left: 23%;
+  }
+  .round3 {
+    left: 18%;
+  }
+  .round4 {
+    left: 90%;
+  }
+  .round5 {
+    left: 12%;
+  }
+  .round6 {
+    left: 116%;
+  }
+  .round7 {
+    left: 112%;
+  }
+  .round8 {
+    left: 74%;
+  }
+  .round9 {
+    left: 97%;
+  }
+  .round11 {
+    left: 36%;
+  }
 }
 
 .slider .card {
@@ -312,6 +404,12 @@ body {
 
 .card span {
   color: #2085ff;
+}
+
+@media screen and (max-width: 767.98px) {
+  .img-box {
+    display: none;
+  }
 }
 
 .about .container-fluid {
@@ -352,6 +450,30 @@ body {
   right: -4rem;
 }
 
+@media all and (max-width: 374px) {
+  .logotyp .element::after {
+    height: 12rem;
+    width: 6rem;
+    right: -2.95rem;
+  }
+}
+
+@media all and (min-width: 374px) and (max-width: 484px) {
+  .logotyp .element::after {
+    height: 9.6rem;
+    width: 6rem;
+    right: -2.95rem;
+  }
+}
+
+@media all and (min-width: 769px) and (max-width: 940px) {
+  .logotyp .element::after {
+    height: 9.6rem;
+    width: 6rem;
+    right: -2.95rem;
+  }
+}
+
 .map-container {
   box-sizing: border-box;
   margin: 0;
@@ -360,7 +482,6 @@ body {
   padding-bottom: 20%;
   position: relative;
   height: 0;
-  width: 98%;
 }
 
 .map-container iframe {
@@ -376,9 +497,43 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: black;
 }
 
 .content .item {
-  width: 25%;
+  width: 20%;
+  flex-wrap: wrap;
+  padding: 0 1rem;
+}
+
+.content .item p {
+  margin: 0;
+}
+
+.content .item a {
+  text-decoration: none;
+  color: white;
+}
+
+.content .item a:hover {
+  color: #2085ff;
+}
+
+.content .item a i {
+  color: #2085ff;
+}
+
+.blue-text {
+  color: #2085ff;
+}
+
+@media screen and (max-width: 991.98px) {
+  .item {
+    font-size: 60%;
+    width: 25%;
+  }
+  .item-4 {
+    display: none;
+  }
 }
 /*# sourceMappingURL=style.css.map */

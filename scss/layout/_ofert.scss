@@ -11,7 +11,7 @@
 }
 
 
-.order-md-2{
+.order-lg-2 {
     img {
         width: 20%;
         height: 50%;
@@ -21,33 +21,12 @@
     }
 }
 
-@media screen and (max-width: $md) {
-    .order-md-2{
-        img {
-            width: 60%;
-            height: 90%;
-        }
-    }
-}
-
 .img-bb8 {
-    img {
-        width: 20%;
-        height: 60%;
-        position: absolute;
-        top: 35%;
-        right: 50%;
-    }
-}
-
-
-@media screen and (max-width: $md) {
-    .img-bb8 {
-        img {
-            width: 100%;
-            height: 100%;
-        }
-    }
+    width: 20%;
+    height: 80%;
+    position: absolute;
+    top: 35%;
+    right: 50%;
 }
 
 .circle {
@@ -67,18 +46,8 @@
 
 .slant {
     clip-path: polygon(0% 10%,100% 3%,100% 83%,0% 88%);
-}
-
-@media screen and (max-width: $md) {
-    .circle {
-        top: 5%;
-        right: -50%;
-    }
-
-    .ofert-img img {
-        top: 5%;
-        right: -50%;
-    }
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
 @keyframes orbit {
@@ -98,16 +67,15 @@ from {
     }
 }
 
-
 .round {
-border-radius: 100%;
-position: absolute;
-background-color: #e1e8ff;
-animation: orbit 4s linear infinite;
+    border-radius: 100%;
+    position: absolute;
+    background-color: #e1e8ff;
+    animation: orbit 4s linear infinite;
 }
 
 .rev {
-animation: rev 4s linear infinite;
+    animation: rev 4s linear infinite;
 }
 
 .round1 {
@@ -191,4 +159,139 @@ animation: rev 4s linear infinite;
     height: 30px;
     left: 8%;
     top: 35%;
+}
+
+
+
+@media screen and (max-width: $md) {
+    .circle {
+        top: 5%;
+        right: -150%;
+    }
+
+    .ofert-img img {
+        top: 5%;
+        right: -150%;
+    }
+
+    .img-bb8 {
+        width: 100%;
+        height: 100%;
+        left: 160%;
+        top: -10%;
+    }
+
+    .order-lg-2{
+        img {
+            width: 60%;
+            height: 90%;
+        }
+    }
+
+    .round1 {
+        left: 150%;
+    }
+
+    .round2 {
+        left: 240%;
+    }
+
+    .round3 {
+        left: 140%
+    }
+
+    .round4 {
+        left: 80%
+    }
+
+    .round5 {
+        left: 299%
+    }
+
+    .round6 {
+        left: 192%
+    }
+
+    .round7 {
+        left: 92%
+    }
+
+    .round8 {
+        left: 352%
+    }
+
+    .round9 {
+        left: 352%
+    }
+
+    .round11 {
+        left: 350%;
+    }
+}
+
+@media screen and (max-width: $sm) {
+    .circle {
+        top: 5%;
+        left: 20%;
+    }
+
+    .ofert-img img {
+        top: 5%;
+        left: 20%;
+    }
+
+    .img-bb8 {
+        width: 100%;
+        height: 100%;
+        left: 1120%;
+        top: -10%;
+    }
+
+    .order-lg-2{
+        img {
+            width: 60%;
+            height: 90%;
+        }
+    }
+
+    .round1 {
+        left: 33%;
+    }
+
+    .round2 {
+        left: 23%;
+    }
+
+    .round3 {
+        left: 18%;
+    }
+
+    .round4 {
+        left: 90%;
+    }
+
+    .round5 {
+        left: 12%;
+    }
+
+    .round6 {
+        left: 116%;
+    }
+
+    .round7 {
+        left: 112%;
+    }
+
+    .round8 {
+        left: 74%;
+    }
+
+    .round9 {
+        left: 97%;
+    }
+
+    .round11 {
+        left: 36%;
+    }
+
 }

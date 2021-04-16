@@ -11,3 +11,33 @@
         }
     }
 }
+
+@media all and (max-width: 374px) {
+    .logotyp{
+        .element::after {
+            height: 12rem;
+            width: 6rem;
+            right: -2.95rem;
+        }
+    }
+}
+
+@media all and (min-width: 374px) and (max-width: 484px) {
+    .logotyp{
+        .element::after {
+            height: 9.6rem;
+            width: 6rem;
+            right: -2.95rem;
+        }
+    }
+}
+
+@media all and (min-width: 769px) and (max-width: 940px) {
+    .logotyp{
+        .element::after {
+            height: 9.6rem;
+            width: 6rem;
+            right: -2.95rem;
+        }
+    }
+}
